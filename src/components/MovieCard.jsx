@@ -10,7 +10,7 @@ const MovieCard = ({ movie }) => {
 
     return (
       <span className="flex items-center gap-0.75 text-sm">
-        <span className="text-red-500 text-lg">{"★".repeat(fullStars)}</span>
+        <span className="text-red-400 text-lg">{"★".repeat(fullStars)}</span>
         <span className="text-gray-300 text-lg">{"★".repeat(emptyStars)}</span>
         <span className="text-white ml-1">({rating.toFixed(1)})</span>
       </span>
